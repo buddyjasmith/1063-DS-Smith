@@ -39,12 +39,6 @@ struct rgb{
 *    void
 */
 void flipVert(rgb** image,int width,int height){
-    // your code
-
-    int tempRed = 0,            // temp holder to store red values
-        tempGrn = 0,            // temp holder to store green values
-        tempBlue = 0;           // temp holder to store blue values
-
     /* swap values of the first node with the last node, decrement by j through
        each loop.
     */
