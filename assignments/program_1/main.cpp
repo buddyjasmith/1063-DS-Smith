@@ -1,4 +1,3 @@
-'
 /**
 * @ProgramName: Program-1
 * @Author: Buddy Smith
@@ -166,4 +165,4 @@ int main(){
 
   return 0;
 }
-'
+
