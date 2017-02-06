@@ -146,11 +146,12 @@ int main(){
         }
     }
 
-    //We could make any changes we want to the color image here
+    //** Function calls **
+    
     flipHorz(imgArray,width,height);
     //grayScale(imgArray, height, width);
     //flipVert(imgArray,width,height);
-     //Write out our color data to a new file
+    //Write out our color data to a new file
 
     ofile<<width<<" "<<height<<endl;
     for(int i=0;i<height;i++){
