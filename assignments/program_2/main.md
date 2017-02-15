@@ -156,16 +156,6 @@ public:
                 swap(image[x][y].r,image[x][width-1-y].r);
                 swap(image[x][y].g,image[x][width-1-y].g);
                 swap(image[x][y].b,image[x][width-1-y].b);
-
-/**
-                image[x][y].r=image[x][width-1-y].r;
-                image[x][y].g=image[x][width-1-y].g;
-                image[x][y].b=image[x][width-1-y].b;
-
-                image[x][width-1-y].r = tempR;
-                image[x][width-1-y].g = tempG;
-                image[x][width-1-y].b = tempB;
-                */
             }
         }
         writeFile();
@@ -195,6 +185,17 @@ public:
         }
         writeFile();
     }
+    
+    /**
+    * @DestructorName: ~ImageManip
+    * @Description:
+    *    Deletes the memory allocated to image
+    * @Params:
+    *    none
+    * @Returns:
+    *    void
+    */
+    
     ~ImageManip(){
         delete image;
     }
@@ -209,4 +210,6 @@ int main()
 
     return 0;
 }
+
 ```
+
