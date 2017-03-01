@@ -3,9 +3,9 @@
   * @Homework: Homework-3
   * @Author: Buddy Smith
   * @Description: 
-  *     This function is used to print circular based arrays.  If the array is empty, 
-  *     "Queue is empty", will be returned to the user.  The function will print the 
-  *      Que FIFO.
+  *     This function is used to print circular based arrays.  If the array is 
+  *     empty,"Queue is empty", will be returned to the user.  The function 
+  *     will print the Que FIFO.
   * @Course: 1063 Data Structures
   * @Semester: Spring 2017
   * @Date: 28 02 2017
