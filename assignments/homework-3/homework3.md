@@ -15,17 +15,9 @@
 
     if(Empty()){                               // True if NumItems = 0
         cout << "Que is empty!\n";
-    }
+    } 
     else
-    if(Full() && Index == 0 && Rear == 0){    // True if NumItems == ArraySize and Front and Rear both equal 0 
-    //Iterate from 0 to NumItems, outputting values, Prints full list
-       while(Index < NumItems ){               
-         cout << Q[Index] <<" ";
-         Index++;
-       }
-    }
-    else
-    if(Rear < Index){                        // Check if Front is greater than Rear
+      if(Rear <= Index || Full()){                        // Check if Front is greater or equal than Rear
      // Iterate from Front to ArraySize
         for(int i = Index; i <ArraySize; i++)
             cout << Q[i]<<" ";
@@ -39,6 +31,7 @@
         }
     }
     cout<<endl;
+    cout << "Front: " << Front << " Rear: " << Rear << endl;
   }
 
 ```
